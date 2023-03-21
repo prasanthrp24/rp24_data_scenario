@@ -3,7 +3,7 @@ import psycopg2
 
 conn = psycopg2.connect(database="postgres",
 						user='postgres', password='mysecretpassword',
-						host='3.237.234.45', port='5432'
+						host='44.192.88.163', port='5432'
 )
 
 conn.autocommit = True
